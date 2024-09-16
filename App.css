@@ -1,0 +1,66 @@
+body {
+  background-color: lightblue;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.player {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem;
+  width: 60px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card.red {
+  color: red;
+}
+
+.draw-button {
+  background-color: #ffd700;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.draw-button:hover {
+  background-color: #ffdf00;
+}
